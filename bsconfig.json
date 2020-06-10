@@ -1,0 +1,36 @@
+{
+  "name": "fullstack-reason",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "frontend",
+      "subdirs": true
+    },
+    {
+      "dir": "types",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "@ahrefs/bs-emotion",
+    "bs-fetch",
+    "decco",
+    "reason-react",
+    "restorative"
+  ],
+  "ppx-flags": [
+    "decco/ppx",
+    "@davesnx/styled-ppx/styled-ppx"
+  ],
+  "refmt": 3
+}

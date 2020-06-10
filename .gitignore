@@ -1,0 +1,9 @@
+node_modules/
+_esy/
+esy.lock/
+dist/
+lib/
+.cache/
+**/*.bs.js
+**/.merlin
+

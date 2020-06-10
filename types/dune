@@ -1,0 +1,7 @@
+(library
+  (name types)
+  (flags (-w -40 -w +26))
+  (libraries ppx_deriving_yojson.runtime)
+  (preprocess (pps ppx_deriving_yojson))
+  (public_name fullstack-reason)
+  (wrapped false))
